@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(42, 42, 42);
+    font-family: 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+font-size:4rem;
+color: rgb(20, 101, 126);
+text-decoration:underline;
+
+
+
+
+}
+
+.hr1{
+    height: 20px;
+    border-style: solid;
+    border-color: rgb(20, 101, 126);
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    
+}
+.hr2{
+    height: 20px;
+    border-style: solid;
+    border-color: rgb(20, 101, 126);
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+.img4us{
+    background-color:rgb(55, 55, 55);border-radius:1.5em;
+}
+.searchImg{
+    width:200px;height:200px;border-radius:1.5em;padding:2.5px;
+    align-items:center;background-color: rgb(22, 22, 22);
+}
+#search,.getImagesButton{
+    background-color: rgb(22, 22, 22);
+  border: 2px solid   rgb(20, 101, 126);
+  color: rgb(20, 101, 126);
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: .5em;
+}
+#searchBox{
+    border-radius: .5em;
+    font-size: 15px;
+    color:  rgb(20, 101, 126);
+    background-color: rgb(22, 22, 22);
+  border: 2px solid   rgb(20, 101, 126);
+  padding: 10px 22px;
+    
+}
+#search:hover,.getImagesButton:hover{
+cursor: pointer;
+font-size: 20px;
+-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease; 
+}
+.searchImg:hover{
+    width:320px;height:320px;cursor: zoom-in;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease; 
+    z-index: 100;
+    overflow:hidden;
+}
+
+.imageDisplayWrapper{
+    margin-top: 25px;
+    display: flex; flex-direction: column; align-items:center;
+    
+}
+.imageToDisplay{
+    width: 350px; height: 350px;border: 2px solid rgb(20, 101, 126);
+    border-radius:1em;background-color:rgb(55, 55, 55);
+}
+.imageToDisplay:hover{
+    width: 550px; height: 550px;cursor: zoom-in;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+    overflow:hidden;
+}
